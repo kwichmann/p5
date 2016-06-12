@@ -17,7 +17,7 @@ function draw() {
   }
 }
 
-function mousePressed() {
+function mouseDragged() {
   walker = new Walker(mouseX, mouseY);
   w.push(walker);
 }
